@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduQuest — образовательная платформа с геймификацией</title>
+    <meta
+      name="description"
+      content="EduQuest — образовательная платформа с элементами геймификации: курсы, опыт, уровни и интерактивные достижения."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header"></header>
+
+    <main class="page">
+      <div class="container">
+        <section class="hero">
+          <div class="hero__inner">
+            <h1 class="hero__title">Учитесь и получайте достижения</h1>
+            <p class="hero__subtitle">
+              EduQuest — образовательная платформа, где прохождение курсов
+              превращается в игру: зарабатывайте опыт, повышайте уровень и
+              открывайте интерактивные достижения.
+            </p>
+            <a class="hero__button" href="./pages/courses.html"
+              >Перейти к курсам</a
+            >
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="section__title">Почему EduQuest</h2>
+          <div class="features">
+            <article class="feature">
+              <div class="feature__icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <circle cx="12" cy="12" r="4.5" />
+                  <circle cx="12" cy="12" r="0.5" fill="currentColor" />
+                </svg>
+              </div>
+              <h3 class="feature__title">Очки опыта</h3>
+              <p class="feature__text">
+                За каждый пройденный урок и тест начисляется опыт, повышающий
+                уровень пользователя.
+              </p>
+            </article>
+            <article class="feature">
+              <div class="feature__icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8 21h8" />
+                  <path d="M12 17v4" />
+                  <path d="M5 4h14v6a7 7 0 0 1-14 0V4z" />
+                  <path d="M5 6H3v2a3 3 0 0 0 2 2.8" />
+                  <path d="M19 6h2v2a3 3 0 0 1-2 2.8" />
+                </svg>
+              </div>
+              <h3 class="feature__title">Достижения</h3>
+              <p class="feature__text">
+                Система интерактивных бейджей мотивирует доходить курсы до
+                конца.
+              </p>
+            </article>
+            <article class="feature">
+              <div class="feature__icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 20V4" />
+                  <path d="M4 20h16" />
+                  <path d="M8 16v-4" />
+                  <path d="M13 16V8" />
+                  <path d="M18 16v-6" />
+                </svg>
+              </div>
+              <h3 class="feature__title">Прогресс</h3>
+              <p class="feature__text">
+                Прогресс обучения сохраняется в браузере и доступен на всех
+                страницах платформы.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="section__title">Популярные курсы</h2>
+          <div class="course-list js-popular-courses">
+            <p class="loader">Загрузка курсов…</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <span class="footer__logo">EduQuest</span>
+        <span>Учебный проект, РТУ МИРЭА, 2026</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
