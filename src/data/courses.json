@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "slug": "html-basics",
+    "title": "Основы HTML",
+    "category": "Веб-разработка",
+    "difficulty": "Начальный",
+    "duration": "2 часа",
+    "lessonsCount": 4,
+    "description": "Курс знакомит с базовой структурой HTML-документа, семантическими тегами, атрибутами и принципами построения веб-страниц.",
+    "color": "#5b8def"
+  },
+  {
+    "id": 2,
+    "slug": "css-layout",
+    "title": "Вёрстка на CSS",
+    "category": "Веб-разработка",
+    "difficulty": "Начальный",
+    "duration": "3 часа",
+    "lessonsCount": 4,
+    "description": "Изучение каскадных таблиц стилей: селекторы, блочная модель, Flexbox и Grid для построения адаптивных макетов.",
+    "color": "#7c5cff"
+  },
+  {
+    "id": 3,
+    "slug": "js-fundamentals",
+    "title": "JavaScript с нуля",
+    "category": "Программирование",
+    "difficulty": "Средний",
+    "duration": "5 часов",
+    "lessonsCount": 4,
+    "description": "Основы языка JavaScript: переменные, типы данных, функции, объекты, работа с DOM и обработка событий.",
+    "color": "#2bb673"
+  },
+  {
+    "id": 4,
+    "slug": "git-basics",
+    "title": "Система контроля версий Git",
+    "category": "Инструменты",
+    "difficulty": "Начальный",
+    "duration": "2 часа",
+    "lessonsCount": 4,
+    "description": "Работа с системой контроля версий Git: коммиты, ветки, слияния и публикация проектов на GitHub.",
+    "color": "#f59f3b"
+  },
+  {
+    "id": 5,
+    "slug": "responsive-design",
+    "title": "Адаптивная вёрстка",
+    "category": "Веб-разработка",
+    "difficulty": "Средний",
+    "duration": "4 часа",
+    "lessonsCount": 4,
+    "description": "Построение интерфейсов для разных устройств: медиазапросы, мобильный подход, гибкие сетки и изображения.",
+    "color": "#e85d75"
+  },
+  {
+    "id": 6,
+    "slug": "js-advanced",
+    "title": "Продвинутый JavaScript",
+    "category": "Программирование",
+    "difficulty": "Продвинутый",
+    "duration": "6 часов",
+    "lessonsCount": 4,
+    "description": "Асинхронность, промисы, fetch, модули ES6, классы и объектно-ориентированное программирование на JavaScript.",
+    "color": "#13b3c7"
+  }
+]
