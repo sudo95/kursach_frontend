@@ -1,0 +1,93 @@
+.course-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-top: 3px solid var(--course-color, var(--color-primary));
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  transition: border-color 0.15s ease;
+}
+
+.course-card:hover {
+  border-color: var(--color-border-strong);
+  border-top-color: var(--course-color, var(--color-primary));
+}
+
+.course-card__top {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.course-card__category {
+  color: var(--course-color, var(--color-primary));
+  font-weight: 600;
+}
+
+.course-card__difficulty {
+  color: var(--color-text-muted);
+}
+
+.course-card__title {
+  font-size: var(--fs-h3);
+  margin-top: 0.25rem;
+}
+
+.course-card__description {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+  flex-grow: 1;
+}
+
+.course-card__meta {
+  display: flex;
+  gap: var(--space-md);
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.course-card__progress {
+  height: 4px;
+  background-color: var(--color-border);
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.course-card__progress-bar {
+  height: 100%;
+  background-color: var(--color-accent);
+  transition: width 0.4s ease;
+}
+
+.course-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--space-xs);
+}
+
+.course-card__progress-text {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.course-card__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--course-color, var(--color-primary));
+  font-weight: 600;
+  font-size: var(--fs-small);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.course-card__button:hover {
+  border-bottom-color: currentColor;
+}
