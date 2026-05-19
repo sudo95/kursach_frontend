@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Курсы — EduQuest</title>
+    <meta
+      name="description"
+      content="Каталог образовательных курсов платформы EduQuest с фильтрами по категории и сложности."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header"></header>
+
+    <main class="page">
+      <div class="container">
+        <h1 class="section__title">Каталог курсов</h1>
+
+        <div class="filters">
+          <div class="filters__group">
+            <label class="filters__label" for="filter-category"
+              >Категория</label
+            >
+            <select
+              class="filters__select js-filter-category"
+              id="filter-category"
+            >
+              <option value="all">Все категории</option>
+            </select>
+          </div>
+          <div class="filters__group">
+            <label class="filters__label" for="filter-difficulty"
+              >Сложность</label
+            >
+            <select
+              class="filters__select js-filter-difficulty"
+              id="filter-difficulty"
+            >
+              <option value="all">Любая сложность</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="course-list js-course-list">
+          <p class="loader">Загрузка курсов…</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <span class="footer__logo">EduQuest</span>
+        <span>Учебный проект, РТУ МИРЭА, 2026</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./courses.js"></script>
+  </body>
+</html>
