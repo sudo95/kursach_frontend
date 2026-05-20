@@ -21,7 +21,7 @@ export default class CourseCard extends Component {
         <div class="course-card__footer">
           <span class="course-card__progress-text">Пройдено ${progress}%</span>
           <a class="course-card__button" href="${base}pages/course.html?slug=${course.slug}">
-            Начать
+            ${progress > 0 ? 'Продолжить' : 'Начать'}
             <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
           </a>
         </div>
