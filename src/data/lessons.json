@@ -1,0 +1,245 @@
+{
+  "html-basics": [
+    {
+      "id": 101,
+      "title": "Структура HTML-документа",
+      "summary": "Теги <!DOCTYPE>, <html>, <head> и <body>, их назначение и порядок.",
+      "xp": 20
+    },
+    {
+      "id": 102,
+      "title": "Текстовые и семантические теги",
+      "summary": "Заголовки, абзацы, списки и семантические элементы header, main, footer.",
+      "xp": 20
+    },
+    {
+      "id": 103,
+      "title": "Ссылки и изображения",
+      "summary": "Атрибуты href, src, alt и принципы построения навигации.",
+      "xp": 20
+    },
+    {
+      "id": 104,
+      "title": "Итоговый тест по HTML",
+      "summary": "Проверка знаний по структуре и тегам HTML.",
+      "xp": 40,
+      "quiz": [
+        {
+          "question": "Какой тег задаёт корневой элемент HTML-документа?",
+          "options": ["<body>", "<html>", "<head>", "<main>"],
+          "correct": 1
+        },
+        {
+          "question": "Какой атрибут задаёт альтернативный текст изображения?",
+          "options": ["title", "src", "alt", "href"],
+          "correct": 2
+        },
+        {
+          "question": "Какой тег используется для создания гиперссылки?",
+          "options": ["<a>", "<link>", "<href>", "<nav>"],
+          "correct": 0
+        }
+      ]
+    }
+  ],
+  "css-layout": [
+    {
+      "id": 201,
+      "title": "Селекторы и каскад",
+      "summary": "Типы селекторов, специфичность и наследование свойств.",
+      "xp": 20
+    },
+    {
+      "id": 202,
+      "title": "Блочная модель",
+      "summary": "Свойства margin, border, padding и box-sizing.",
+      "xp": 20
+    },
+    {
+      "id": 203,
+      "title": "Flexbox и Grid",
+      "summary": "Построение одномерных и двумерных макетов.",
+      "xp": 20
+    },
+    {
+      "id": 204,
+      "title": "Итоговый тест по CSS",
+      "summary": "Проверка знаний по селекторам и макетам.",
+      "xp": 40,
+      "quiz": [
+        {
+          "question": "Какое свойство включает Flexbox-контекст?",
+          "options": ["display: grid", "display: flex", "float: left", "position: flex"],
+          "correct": 1
+        },
+        {
+          "question": "Что задаёт свойство padding?",
+          "options": ["внешний отступ", "рамку", "внутренний отступ", "ширину"],
+          "correct": 2
+        },
+        {
+          "question": "Какой селектор имеет наибольшую специфичность?",
+          "options": ["тег", "класс", "идентификатор", "универсальный *"],
+          "correct": 2
+        }
+      ]
+    }
+  ],
+  "js-fundamentals": [
+    {
+      "id": 301,
+      "title": "Переменные и типы данных",
+      "summary": "Объявления let, const, var и базовые типы JavaScript.",
+      "xp": 25
+    },
+    {
+      "id": 302,
+      "title": "Функции",
+      "summary": "Объявление функций, параметры, стрелочные функции.",
+      "xp": 25
+    },
+    {
+      "id": 303,
+      "title": "Работа с DOM",
+      "summary": "Методы querySelector, addEventListener и изменение элементов.",
+      "xp": 25
+    },
+    {
+      "id": 304,
+      "title": "Итоговый тест по JavaScript",
+      "summary": "Проверка базовых знаний языка.",
+      "xp": 50,
+      "quiz": [
+        {
+          "question": "Какое ключевое слово объявляет неизменяемую переменную?",
+          "options": ["var", "let", "const", "static"],
+          "correct": 2
+        },
+        {
+          "question": "Какой метод находит элемент по CSS-селектору?",
+          "options": ["getElement", "querySelector", "findNode", "selectAll"],
+          "correct": 1
+        },
+        {
+          "question": "Что возвращает typeof []?",
+          "options": ["'array'", "'object'", "'list'", "'undefined'"],
+          "correct": 1
+        }
+      ]
+    }
+  ],
+  "git-basics": [
+    {
+      "id": 401,
+      "title": "Первый репозиторий",
+      "summary": "Команды git init, git add и git commit.",
+      "xp": 20
+    },
+    {
+      "id": 402,
+      "title": "Ветвление",
+      "summary": "Создание веток и переключение между ними.",
+      "xp": 20
+    },
+    {
+      "id": 403,
+      "title": "Работа с GitHub",
+      "summary": "Команды git push, git pull и удалённые репозитории.",
+      "xp": 20
+    },
+    {
+      "id": 404,
+      "title": "Итоговый тест по Git",
+      "summary": "Проверка знаний основных команд.",
+      "xp": 40,
+      "quiz": [
+        {
+          "question": "Какая команда фиксирует изменения в истории?",
+          "options": ["git save", "git commit", "git push", "git store"],
+          "correct": 1
+        },
+        {
+          "question": "Какая команда создаёт новый репозиторий?",
+          "options": ["git new", "git start", "git init", "git create"],
+          "correct": 2
+        }
+      ]
+    }
+  ],
+  "responsive-design": [
+    {
+      "id": 501,
+      "title": "Мобильный подход",
+      "summary": "Принцип mobile-first и проектирование от малых экранов.",
+      "xp": 25
+    },
+    {
+      "id": 502,
+      "title": "Медиазапросы",
+      "summary": "Правило @media и контрольные точки вёрстки.",
+      "xp": 25
+    },
+    {
+      "id": 503,
+      "title": "Гибкие изображения",
+      "summary": "Адаптивные изображения и единицы измерения.",
+      "xp": 25
+    },
+    {
+      "id": 504,
+      "title": "Итоговый тест по адаптивности",
+      "summary": "Проверка знаний по адаптивной вёрстке.",
+      "xp": 50,
+      "quiz": [
+        {
+          "question": "Какое правило применяет стили по условию ширины экрана?",
+          "options": ["@import", "@media", "@font-face", "@keyframes"],
+          "correct": 1
+        },
+        {
+          "question": "Какая контрольная точка обычно соответствует планшету?",
+          "options": ["320 px", "768 px", "1920 px", "2560 px"],
+          "correct": 1
+        }
+      ]
+    }
+  ],
+  "js-advanced": [
+    {
+      "id": 601,
+      "title": "Промисы",
+      "summary": "Объект Promise, методы then и catch.",
+      "xp": 30
+    },
+    {
+      "id": 602,
+      "title": "Fetch и асинхронность",
+      "summary": "Загрузка данных через fetch и async/await.",
+      "xp": 30
+    },
+    {
+      "id": 603,
+      "title": "Классы и модули",
+      "summary": "Синтаксис class, наследование и модули ES6.",
+      "xp": 30
+    },
+    {
+      "id": 604,
+      "title": "Итоговый тест по продвинутому JS",
+      "summary": "Проверка знаний асинхронности и ООП.",
+      "xp": 60,
+      "quiz": [
+        {
+          "question": "Что возвращает вызов fetch()?",
+          "options": ["строку", "объект Promise", "массив", "undefined"],
+          "correct": 1
+        },
+        {
+          "question": "Какое ключевое слово реализует наследование классов?",
+          "options": ["implements", "inherits", "extends", "super"],
+          "correct": 2
+        }
+      ]
+    }
+  ]
+}
