@@ -1,4 +1,4 @@
-export const STORAGE_KEY = 'eduquest';
+export const STORAGE_KEY = 'eduquest-progress';
 
 const Storage = {
   load(key, fallback = null) {
