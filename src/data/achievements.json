@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "code": "first_lesson",
+    "title": "Первый шаг",
+    "description": "Завершён первый урок на платформе.",
+    "condition": "completedLessons >= 1",
+    "points": 50,
+    "icon": "🎓"
+  },
+  {
+    "id": 2,
+    "code": "three_lessons",
+    "title": "Набираем темп",
+    "description": "Завершено три урока.",
+    "condition": "completedLessons >= 3",
+    "points": 75,
+    "icon": "🔥"
+  },
+  {
+    "id": 3,
+    "code": "first_quiz",
+    "title": "Знаток",
+    "description": "Успешно пройден первый тест.",
+    "condition": "passedQuizzes >= 1",
+    "points": 100,
+    "icon": "🧠"
+  },
+  {
+    "id": 4,
+    "code": "hundred_xp",
+    "title": "Сотня опыта",
+    "description": "Набрано 100 очков опыта.",
+    "condition": "experience >= 100",
+    "points": 60,
+    "icon": "⭐"
+  },
+  {
+    "id": 5,
+    "code": "first_course",
+    "title": "Покоритель курса",
+    "description": "Полностью завершён первый курс.",
+    "condition": "completedCourses >= 1",
+    "points": 150,
+    "icon": "🏆"
+  },
+  {
+    "id": 6,
+    "code": "level_three",
+    "title": "Третий уровень",
+    "description": "Достигнут третий уровень пользователя.",
+    "condition": "level >= 3",
+    "points": 120,
+    "icon": "🚀"
+  }
+]
