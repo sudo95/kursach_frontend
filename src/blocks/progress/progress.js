@@ -1,7 +1,7 @@
 import Storage, { STORAGE_KEY } from '../../utils/storage.js';
 
 export default class Progress {
-  static XP_PER_LEVEL = 100;
+  static XP_PER_LEVEL = 200;
 
   constructor() {
     this._state = this._load();
