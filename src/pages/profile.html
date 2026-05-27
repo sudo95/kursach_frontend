@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Профиль — EduQuest</title>
+    <meta
+      name="description"
+      content="Профиль пользователя EduQuest: уровень, опыт, статистика обучения и последние достижения."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header"></header>
+
+    <main class="page">
+      <div class="container">
+        <h1 class="section__title">Профиль</h1>
+        <div class="js-profile">
+          <p class="loader">Загрузка профиля…</p>
+        </div>
+
+        <section class="section" style="margin-top: 2.5rem">
+          <h2 class="section__title">Последние достижения</h2>
+          <div class="achievements js-recent-achievements"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <span class="footer__logo">EduQuest</span>
+        <span>Учебный проект, РТУ МИРЭА, 2026</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./profile.js"></script>
+  </body>
+</html>
