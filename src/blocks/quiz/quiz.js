@@ -74,7 +74,7 @@ export default class Quiz extends Component {
       } else {
         this._finish();
       }
-    }, 1500);
+    }, 800);
   }
 
   _finish() {
