@@ -2,7 +2,7 @@ import { resolve } from 'path';
 import { cpSync } from 'fs';
 import { defineConfig } from 'vite';
 
-const repository = '/eduquest/';
+const base = process.env.VITE_BASE_PATH || '/';
 
 function copyDataPlugin() {
   return {
@@ -16,7 +16,7 @@ function copyDataPlugin() {
 }
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? repository : '/',
+  base,
   root: 'src',
   plugins: [copyDataPlugin()],
   build: {
